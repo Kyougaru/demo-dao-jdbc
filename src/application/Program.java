@@ -42,7 +42,7 @@ public class Program {
 		System.out.println("Update completed!");
 		
 		System.out.println("\n==== TEST 6: seller deleteById ====");
-		sellerDao.deleteById(10);
+		sellerDao.deleteById(newSeller.getId());
 		System.out.println("Delete completed!");
 	}
 }
